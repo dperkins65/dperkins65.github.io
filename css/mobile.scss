@@ -1,0 +1,44 @@
+@media (max-width: 760px) {
+	nav ul li {
+		float: none;
+	}
+
+	.header {
+
+		background-color: #47BEED;
+
+		height: 100% !important;
+
+		.splash-letter {
+			padding-top: 15px;
+
+			h1 {
+				font-size: 18px;
+				text-shadow: none;
+			}	
+		}
+
+		#intro-video {
+			display: none;
+		}
+
+		.overlay {
+			display: none;
+		}
+		
+	}
+
+	article {
+		position: relative;
+		top: 50 !important;  
+	}
+}
+
+@media (max-width: 639px) {
+
+	.callout {
+		.address:nth-child(2) {
+			margin-top: 20px;
+		}
+	}
+}

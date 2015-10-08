@@ -1,29 +1,291 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Daniel & Cassandra's Wedding</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="main-content">
-      <h1 class="project-name">Daniel & Cassandra's Wedding</h1>
-      <p>A placeholder for our wedding website.</p>
-    </section>
+<html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600|Parisienne' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/mobile.css">
+		<title>Daniel & Cassandra's Wedding</title>
+	</head>
+	<body>
+		<div class="header">
+			<div class="overlay"></div>
+			<img id="intro-video" src="assets/dancass1.jpg">
+			<div class="wrapper-left">
+				<div class="splash-letter">
+					<h1>We're getting married!</h1>
+					<p>To plan for the weekend, take a look at the <span target-tab='section-1'>wedding details</span>, a few recommended <span target-tab='section-2'>places to stay</span>, and some <span target-tab='section-3'>activities to do</span> if you have free time.  If you still have questions, review the <span target-tab='section-5'>FAQ</span> or get in <span target-tab='section-6'>contact</span> with us.</p>
+					<br>
+					<p>We are excited to see everyone and cannot wait to share the weekend with you all.</p>
+					<br>
+					<p>- Dan & Cass</p>
+				</div>
+		  </div>
+		</div>
+		<article>
+			<div id="tabs" class="tabs">
+				<nav>
+			  	<ul>
+	          <li class="active"><a class="section-1"><span>Wedding</span></a></li>
+	          <li><a class="section-2"><span>Accomodations</span></a></li>
+	          <li><a class="section-3"><span>Activities</span></a></li>
+	          <li><a class="section-4"><span>Registry</span></a></li>
+	          <li><a class="section-5"><span>FAQ</span></a></li>
+						<li><a class="section-6"><span>Contact</span></a></li>
+	        </ul>
+	        <div style="clear:both;"></div>
+		    </nav>
+			</div>
+			<div class="contents">
+				<section class='section-1'>
+					<div class="wrapper-main">
+						<h2>About the wedding</h2>
+						<p>The wedding will be held on Sunday May 29th, 2016 in Portland, Maine.</p>
+						<div class="callout">
+							<div class="map">
+								<iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Grace,+Chestnut+Street,+Portland,+ME,+United+States&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
+							</div>
+							<div class="address">
+								<p>Grace<p>
+								<p>15 Chestnut Street</p>
+								<p>Portland, ME 04101</p>
+							</div>
+							<div style="clear:both"></div>
+						</div>
+						<br>
+						<h3>Sunday May 29th:</h3>
+						<p>5:30pm - Wedding Ceremony at Grace</p>
+						<p><small>The wedding ceremony will be held on the 1st floor, below street level.  Enter Grace through the front door, walk down the stairs and to the end of the hallway.</small></p>
+						<p>6:00pm - Cocktail Hour</p>
+						<p><small>Cocktail hour and the wedding reception will be located in the main restaurant space at Grace.</small></p>
+						<p>7:00pm - Wedding Reception</p>
+						<p><small>The reception will conclude at 11:00pm.</small></p>
+						<br>
+						<h2>Parking</h2>
+						<p>Grace does not have a parking lot, however, parking is free on the streets of Portland both Sunday and Monday.  There are also a number of parking lots within a short walk.  The cost to park in these lots will vary.</p>
+						<div class="callout">
+							<div class="address">
+								<p>Top of the Old Port Parking Lot</p>
+								<p>119 Pearl Street</p>
+								<p>Portland, ME 04101</p>
+								<a href="https://www.google.com/maps/place/Top+of+the+Old+Port+Parking/@43.660189,-70.2561907,17z/data=!3m1!4b1!4m2!3m1!1s0x4cb29c6ba00c7fef:0x2dafdafe18c99d1" target="_blank">Map</a>
+							</div>
+							<div class="address">
+								<p>Elm Street Garage</p>
+								<p>21 Elm Street</p>
+								<p>Portland, ME 04101</p>
+								<a href="https://www.google.com/maps/place/Elm+St+Garage/@43.6584124,-70.2593304,17z/data=!3m1!4b1!4m2!3m1!1s0x4cb29c14b02741a3:0x416c0f7b78ff5bd8" target="_blank">Map</a>
+							</div>
+							<div style="clear:both"></div>
+						</div>
+						<br>
+						<h2>Transportation</h2>
+						<p>The hotels that we have suggested are arguably within walking distance to Grace.  Taking a Cab or Uber is a good alternative.</p>
+					</div>
+				</section>
 
-    <script type="text/javascript">
-      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-      try {
-        var pageTracker = _gat._getTracker("UA-62404403-1");
-        pageTracker._trackPageview();
-        } catch(err) {}
-    </script>
-  </body>
+				<section class='section-2'>
+					<div class="wrapper-main">
+						<h2>Where to stay</h2>
+						<p>We will be staying at the Westin, however, there is an array of hotels and bed and breakfasts to choose from in a variety of price ranges within the downtown Portland area.</p>
+						<br>
+						<p>We encourage you to book your room early as it is a holiday weekend and some hotels appear to have already sold out.</p>
+						<div class="callout">
+							<p>Hotels</p>
+							<div class="address">
+								<p><a href="http://www.westinportlandharborview.com/" target="_blank">Westin Portland Harborview</a></p>
+								<p>157 High Street</p>
+								<p>Portland, ME 04101</p>
+								<p><a href="https://www.google.com/maps/dir/The+Westin+Portland+Harborview,+157+High+St,+Portland,+ME+04101,+United+States/Grace,+Chestnut+Street,+Portland,+ME/@43.6568164,-70.263619,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x4cb29c1150fe1919:0x604dfd1f1dbe0271!2m2!1d-70.264054!2d43.654826!1m5!1m1!1s0x4cb29c6b440794e7:0x2c06cdfcd2eeadfe!2m2!1d-70.2576875!2d43.6593095!3e2" target="_blank">1/2 mile to Grace</a></p>
+							</div>
+							<div class="address">
+								<p><a href="http://www.thepresshotel.com/" target="_blank">The Press Hotel, Marriott Autograph Collection</a></p>
+								<p>119 Exchange Street</p>
+								<p>Portland, ME 04101</p>
+								<p><a href="https://www.google.com/maps/dir/The+Press+Hotel,+Autograph+Collection,+119+Exchange+Street,+Portland,+ME+04101/Grace,+Chestnut+Street,+Portland,+ME/@43.6590017,-70.2592708,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x4cb29c6ad7f61843:0x93a96d7d1c3d7e07!2m2!1d-70.256268!2d43.65892!1m5!1m1!1s0x4cb29c6b440794e7:0x2c06cdfcd2eeadfe!2m2!1d-70.2576875!2d43.6593095!3e2" target="_blank">1/10 mile to Grace</a></p>
+							</div>
+							<div class="address">
+								<p><a href="http://www.innbythebay.com/" target="_blank">Holiday Inn By The Bay</a></p>
+								<p>88 Spring Street</p>
+								<p>Portland, ME 04101</p>
+								<p><a href="https://www.google.com/maps/dir/Holiday+Inn+By+The+Bay+Portland,+Spring+Street,+Portland,+ME/Grace,+Chestnut+Street,+Portland,+ME/@43.656455,-70.2611484,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x4cb29c1689a9dafd:0x3a5c39cc2b9c57a8!2m2!1d-70.2605187!2d43.6535927!1m5!1m1!1s0x4cb29c6b440794e7:0x2c06cdfcd2eeadfe!2m2!1d-70.2576875!2d43.6593095!3e2" target="_blank">1/2 mile to Grace</a></p>
+							</div>
+							<div class="address">
+								<p><a href="http://hamptoninn3.hilton.com/en/hotels/maine/hampton-inn-portland-downtown-waterfront-PWMDTHX/index.html" target="_blank">Hampton Inn Portland Downtown</a></p>
+								<p>209 Fore Street</p>
+								<p>Portland, ME 04101</p>
+								<p><a href="https://www.google.com/maps/dir/Hampton+Inn+Portland+Downtown+-+Waterfront,+Fore+Street,+Portland,+ME/Grace,+Chestnut+Street,+Portland,+ME/@43.6590953,-70.2563853,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x4cb29c41ae0ecfa3:0x45628dbe48c280ee!2m2!1d-70.2506588!2d43.6592862!1m5!1m1!1s0x4cb29c6b440794e7:0x2c06cdfcd2eeadfe!2m2!1d-70.2576875!2d43.6593095!3e2" target="_blank">1/2 mile to Grace</a></p>
+							</div>
+							<div class="address">
+								<p><a href="http://www.marriott.com/hotels/travel/pwmcd-courtyard-portland-downtown-waterfront/" target="_blank">Courtyard Portland Downtown/Waterfront</a></p>
+								<p>321 Commercial Street</p>
+								<p>Portland, ME 04101</p>
+								<p><a href="https://www.google.com/maps/dir/Courtyard+Portland+Downtown%2FWaterfront,+Commercial+Street,+Portland,+ME/Grace,+Chestnut+Street,+Portland,+ME/@43.6561715,-70.2613832,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x4cb29c3dfb2c3a99:0x98a6526378dd2e02!2m2!1d-70.256381!2d43.653096!1m5!1m1!1s0x4cb29c6b440794e7:0x2c06cdfcd2eeadfe!2m2!1d-70.2576875!2d43.6593095!3e2" target="_blank">1/2 mile to Grace</a></p>
+							</div>
+							<div class="address">
+								<p><a href="http://portlandoldport.place.hyatt.com/en/hotel/home.html" target="_blank">Hyatt Place </a></p>
+								<p>433 Fore Street</p>
+								<p>Portland, ME 04101</p>
+								<p><a href="https://www.google.com/maps/dir/Hyatt+Place+Portland+Old+Port,+Fore+Street,+Portland,+ME/Grace,+Chestnut+Street,+Portland,+ME/@43.6574914,-70.2578069,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x4cb29c3fd1a3fe6b:0xeeebd6786362b1d8!2m2!1d-70.254992!2d43.6559509!1m5!1m1!1s0x4cb29c6b440794e7:0x2c06cdfcd2eeadfe!2m2!1d-70.2576875!2d43.6593095!3e2" target="_blank">1/3 mile to Grace</a></p>
+							</div>
+							<div style="clear:both"></div>
+							<br>
+							<p>Bed & Breakfasts</p>
+							<div class="address">
+								<p><a href="http://www.innatparkspring.com/" target="_blank">The Inn at Park Spring</a></p>
+								<p>135 Spring Street</p>
+								<p>Portland, ME 04101</p>
+								<p><a href="https://www.google.com/maps/dir/The+Inn+at+Parkspring,+Spring+Street,+Portland,+ME/Grace,+Chestnut+Street,+Portland,+ME/@43.6560737,-70.2652119,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x4cb29c16df6f1831:0x20667a7fa58a4410!2m2!1d-70.2630535!2d43.6525327!1m5!1m1!1s0x4cb29c6b440794e7:0x2c06cdfcd2eeadfe!2m2!1d-70.2576875!2d43.6593095!3e2" target="_blank">2/3 mile to Grace</a></p>
+							</div>
+							<div class="address">
+								<p><a href="http://www.innoncarleton.com/" target="_blank">The Inn on Carleton</a></p>
+								<p>46 Carleton Street</p>
+								<p>Portland, ME 04101</p>
+								<p><a href="https://www.google.com/maps/dir/Inn+On+Carleton+Bed+%26+Breakfast,+46+Carleton+Street,+Portland,+ME+04102/Grace,+Chestnut+Street,+Portland,+ME/@43.655456,-70.2682542,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x4cb29c1aa778141d:0x57be9765dd5bd6af!2m2!1d-70.2711993!2d43.6512314!1m5!1m1!1s0x4cb29c6b440794e7:0x2c06cdfcd2eeadfe!2m2!1d-70.2576875!2d43.6593095!3e2" target="_blank">1 mile to Grace</a></p>
+							</div>
+							<div class="address">
+								<p><a href="http://www.danforthinn.com/" target="_blank">The Danforth</a></p>
+								<p>163 Danforth Street</p>
+								<p>Portland, ME 04101</p>
+								<p><a href="https://www.google.com/maps/dir/The+Danforth,+Danforth+Street,+Portland,+ME/Grace,+Chestnut+Street,+Portland,+ME/@43.654452,-70.2632319,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x4cb29c18292fbaf9:0xac553f172c60e9!2m2!1d-70.2626119!2d43.64969!1m5!1m1!1s0x4cb29c6b440794e7:0x2c06cdfcd2eeadfe!2m2!1d-70.2576875!2d43.6593095!3e2" target="_blank">1 mile to Grace</a></p>
+							</div>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+				</section>
+
+				<section class='section-3'>
+					<div class="wrapper-main">
+						<h2>What to do</h2>
+						<p>If you have free time, there is plenty to do in the area.  Here are a few things we personally recommend.</p>
+						<br>
+						<div class="activity">
+							<img src="assets/portlandhead.jpg">
+							<h3>Sightsee</h3>
+							<p>Visit Portland Head, the Harbor Islands, etc.</p>
+							<ul>
+								<li><a href="" target="_blank">Portland Head Lighthouse</a> - History and a great view!</li>
+								<li><a href="" target="_blank">Portland Harbor Islands</a> - A full day trip but there is plenty to explore.</li>
+							<ul>
+						</div>
+						<div style="clear:both"></div>
+						<div class="activity">
+							<img src="assets/oldport.jpg">
+							<h3>Shop</h3>
+							<ul>
+								<li><a href="http://www.portlandmaine.com/explore-downtown/" target="_blank">The Old Port</a> - History, shopping, and dining, all in one location.</li>
+								<li><a href="http://visitmaine.com/places-to-go/greater-portland-and-casco-bay/freeport/" target="_blank">Freeport</a> - Shop the LLBean flagship store and a selection of outlet stores.</li>
+							</ul>
+						</div>
+						<div style="clear:both"></div>
+						<div class="activity">
+							<img src="assets/petitejacqueline.jpg">
+							<h3>Eat</h3>
+							<ul>
+								<li><a href="http://bistropj.com/index.php" target="_blank">Petite Jacqueline</a> - Our favorite restaurant in Portland!</li>
+								<li><a href="http://www.ottoportland.com/" target="_blank">Otto Pizza</a> - Fantastic pizza, low key atmosphere.</li>
+								<li><a href="http://standardbakingco.com/" target="_blank">Standard Baking Co</a> - The best french bagguette in world??  Perhaps.  Also coffee and pastries.</li>
+							</ul>
+						</div>
+						<div style="clear:both"></div>
+						<div class="activity">
+							<img src="assets/bissellbros.jpg">
+							<h3>Imbibe</h3>
+							<ul>
+								<li><a href="http://www.bissellbrothers.com/" target="_blank">Bissell Brothers Brewery</a> - A smaller brewery that hails from the town next to where Daniel grew up, Bissell Brothers has quickly established a cult following.</li>
+								<li><a href="http://www.austinstreetbrewery.com/" target="_blank">Austin Street Brewery</a> - On the other side of the building from Bissell Brothers, Austin Street is well worth the stop.</li>
+								<li><a href="http://www.allagash.com/" target="_blank">Allagash Brewery</a> - They produce more than just Allagash White.  Go find out for yourself!</li>
+								<li><a href="http://www.risingtidebrewing.com/age-check" target="_blank">Rising Tide Brewing Company</a> - Closer to downtown, but no less tasty.</li>
+								<li><a href="http://novareresbiercafe.com/" target="_blank">Novare Res Bier Cafe</a> - Food and an impressive beer list.  Possibly best described as "overwhelming".</li>
+							</ul>
+						</div>
+						<div style="clear:both"></div>
+					</div>
+				</section>
+
+				<section class='section-4'>
+					<div class="wrapper-main">
+						<h2>Registry</h2>
+						<p>We are registered at the following locations.</p>
+						<div class="callout">
+							<div class="registry">
+								<a href="http://www.macys.com/" target="_blank">
+									<img src="assets/mlogo.png" style="border:1px solid black;max-width:100%;" alt="Macy's">
+								</a>
+							</div>
+							<div class="registry">
+								<a href="http://www.crateandbarrel.com/" target="_blank">
+									<img src="assets/cblogo.jpg" style="border:1px solid black;max-width:100%;" alt="Crate & Barrel">
+								</a>
+							</div>
+							<div style="clear:both"></div>
+						</div>
+						<br>
+					</div>
+				</section>
+
+				<section class='section-5'>
+					<div class="wrapper-main">
+						<h2>FAQ</h2>
+						<p>What's the deadline to RSVP?</p>
+						<p><small>April 23rd, 2016</small></p>
+						<br>
+						<p>Are kids welcome?  May I bring a date?</p>
+						<p><small>The venue has limited area for dinner and dancing. For this reason, please only bring those directly addressed on the invitations.</small></p>
+						<br>
+						<p>Is there a hotel room block for the weekend?</p>
+						<p><small>Unfortunately no, but there are many hotels in and around Portland to choose from.</small></p>
+						<br>
+						<p>Is transportation being provided between Grace and the hotels?</p>
+						<p><small>Since our guests are staying at hotels across Portland, there will not be any dedicated transportation. However, most hotels in the city are within walking distance and cabs run regularly.</small></p>
+						<br>
+						<p>Is the wedding inside or outside?</p>
+						<p><small>Both the ceremony and reception are indoors.</small></p>
+						<br>
+						<p>Will last names be changed after the wedding?</p>
+						<p><small>Cassandra's will be! However, if you are making out a check to the couple, please use Cassandra Patch, as it might take awhile to get documents in order for the name change.</small></p>
+						<br>
+						<p>Who should I contact if I have more questions?</p>
+						<p><small>Send us a message using the form below!</small></p>
+						<br>
+					</div>
+				</section>
+
+				<section class='section-6'>
+					<div class="wrapper-main">
+						<h2>Send us a message</h2>
+						<!-- Begin MailChimp Signup Form -->
+						<div id="mc_embed_signup">
+						<form action="//danielandcassandra.us10.list-manage.com/subscribe/post?u=8e3beec256b152a3bb4f18dfd&amp;id=79ff92ac45" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							<div id="mc_embed_signup_scroll">
+								<div class="mc-field-group">
+									<label for="mce-FNAME">Name  </label>
+									<input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+								</div>
+								<div class="mc-field-group">
+									<label for="mce-EMAIL">Email Address  </label>
+									<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+								</div>
+								<div class="mc-field-group">
+									<label for="mce-MMERGE3">Question or Comment  </label>
+									<input type="text" value="" name="MMERGE3" class="required" id="mce-MMERGE3">
+								</div>
+								<div id="mce-responses" class="clear">
+									<div class="response" id="mce-error-response" style="display:none"></div>
+									<div class="response" id="mce-success-response" style="display:none"></div>
+								</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						    <div style="position: absolute; left: -5000px;"><input type="text" name="b_8e3beec256b152a3bb4f18dfd_79ff92ac45" tabindex="-1" value=""></div>
+						    <div class="clear"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+							</div>
+						</form>
+						</div>
+						<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='MMERGE3';ftypes[3]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+						<!--End mc_embed_signup-->
+					</div>
+				</section>
+			</div>
+		</article>
+	</body>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-scrolltofixed-min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </html>

@@ -1,0 +1,333 @@
+/* ----- RESETS ----- */  
+* {
+  padding: 0;
+  margin: 0; }
+
+
+/* ------ GLOBAL STYLES ----- */
+h1, h2, h3, h4, p, span, div {
+  font-family: 'Source Sans Pro', 'Helvetica', 'sans-serif';
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+p { 
+  font-size: 18px;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #00a0dd;
+}
+
+a:active {
+  color: #00a0dd;
+}
+
+.wrapper {
+     padding-left: 20px;
+     padding-right: 20px;
+     max-width: 700px;
+     margin: 0 auto;
+}
+
+
+
+/* ----- INTRO / HEADER ----- */
+.header {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    z-index: 10
+}
+
+#intro-video {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1000;
+}
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -100;  
+  background-color: rgba(142,210,237,.5); 
+}
+
+.splash-letter {
+  color: #FFFFFF;
+  text-shadow: 0px 2px rgba(0,0,0,.6);
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10%;
+}
+
+.splash-letter h1 {
+  font-family: 'Parisienne';
+  font-size: 36px;
+}
+
+.splash-letter p {
+  font-size: 22px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.splash-letter span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.splash-letter span:hover {
+    color: #FFE8D4;
+}
+
+.down-arrow {
+  width: 40px;
+  height: 40px;
+  margin: 50px auto 0 auto;
+  cursor: pointer;
+}
+
+.down-arrow img {
+  width: 100%;
+}
+
+/* ----- MAIN CONTENTS ----- */
+
+article {
+    position: relative;
+    z-index: 100;
+}
+
+.main_action {
+  background: #FAFAFA;
+  display: none;
+}
+
+.contents {
+  position: relative;
+  z-index: 1000;
+}
+
+.contents button {
+  margin: 0 auto 10px auto;
+  padding: 20px 50px;
+  font-size: 16px;
+  display: block;
+  background-color: #FFD5D8;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 0 0 #CCABAD;
+  cursor: pointer;
+  color: #B39697;
+  outline: none;
+}
+
+.main_action .contents p {
+  text-align: center;
+  color: rgba(0,0,0,.57);
+  font-size: 12px;
+}
+
+.callout {
+  padding: 15px 0;
+  border-top: 1px solid rgba(0,0,0,.57);
+  border-bottom: 1px solid rgba(0,0,0,.57);
+  margin-top: 10px;
+
+  .address {
+    float: left;
+    width: 300px; 
+
+    p {
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    a {
+      font-size: 14px;
+    }  
+  }
+}
+
+
+.activity {
+     width: 300px;
+     float: left;
+     margin-right: 10px;
+     margin-bottom: 10px;
+
+     img {
+          width: 100%;
+          height: 150px;
+          margin-bottom: 5px;
+     }
+
+     p {
+          font-size: 14px;
+          line-height: 20px;
+     }
+
+     ul {
+          font-size: 14px;
+          line-height: 20px;
+          padding-left: 15px;
+          margin-top: 5px;     
+     }
+
+}
+
+/* ----- TAB STYLES ----- */
+.tabs {
+
+}
+
+nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #DDDDDD;
+    background: #FFFFFF;
+   
+}
+
+nav ul {
+  display: block;
+  margin: 0 auto;
+  padding-left: 20px;
+  max-width: 700px;
+}
+
+nav ul li {
+  float: left;
+  padding: 0 20px 0 0;
+  margin-right: 20px;
+  border-bottom: none;
+  position: relative;
+  top: 1px;
+  cursor: pointer;
+    list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgba(0,0,0,.87);
+}
+
+nav ul .active {
+ 
+}
+
+nav ul .active a {
+  color: rgba(0,0,0,.85);  
+}
+
+/* ----- TAB SECTION STYLES ----- */
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    background: #ffffff;
+    margin-bottom: 200px;
+    min-height: 100%;
+}
+
+section:last-child {
+  margin-bottom: 0;
+}
+
+
+.sticky {  
+    position: fixed;  
+    width: 100%;  
+    left: 0;  
+    top: 0;  
+    z-index: 10000000; 
+    border-top: 0;  
+}  
+
+/* ----- FORM STYLES ----- */
+
+#mc_embed_signup {
+     
+     .mc-field-group {
+
+          label {
+               display: block;
+               font-family: 'Source Sans Pro', 'Helvetica', 'sans-serif';
+               font-size: 18px;
+               margin-bottom: 5px;
+          }
+
+          input[type='text'], input[type='email'] {
+               display: block;
+               width: 100%;
+               height: 40px;
+               margin-bottom: 20px;
+               padding: 5px;
+               font-size: 16px;
+               outline: none;
+          }
+
+     }
+
+     .input-group {
+          display: block; 
+
+          ul {
+               display: block;
+               list-style: none;
+               li {
+
+               }
+               label {
+               display: inline-block;
+               margin-left: 10px;
+               }
+          }
+     }
+
+     .button {
+          width: 100%;
+          margin-top: 20px;
+          padding: 20px 50px;
+          font-size: 18px;
+          display: block;
+          background-color: #FFD5D8;
+          border: none;
+          border-radius: 4px;
+          box-shadow: 0 2px 0 0 #CCABAD;
+          cursor: pointer;
+          color: #B39697;
+          outline: none;     
+     }
+
+}
+
+
+
+
+
